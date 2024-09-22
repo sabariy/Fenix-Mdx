@@ -7,10 +7,10 @@ Index({
 	type: 'info'
 }, async (message, match, client) => {
 	const start = new Date().getTime();
-	const msg = await message.reply('*ᴩɪɴɢ...*');
+	const msg = await message.reply('_*𝐂ʜᴇᴄᴋɪɴɢ 𝐏ɪɴɢ...🐥*_');
 	const end = new Date().getTime();
 	const responseTime = end - start;
-	await message.reply(`*pong!*\nʟᴀᴛᴇɴᴄʏ: ${responseTime}ms`);
+	await message.reply(`_*𝐋ᴀᴛᷨᴇͦɴͭᴄʏ ➩ ${responseTime} 𝐌ꜱ*_`);
 });
 
 Index({
