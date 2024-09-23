@@ -9,7 +9,6 @@ const {
     makeCacheableSignalKeyStore
 } = require('@whiskeysockets/baileys');
 const logger = require("pino");
-const { Boom } = require("@hapi/boom");
 const { version } = require("./package");
 const path = require("path")
 const fs = require("fs");
@@ -118,5 +117,6 @@ const [name, id] = config.SESSION_ID.split("~");
 };
 
 connectToWhatsApp()
+};
 
 connect()
