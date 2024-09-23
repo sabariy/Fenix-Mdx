@@ -25,8 +25,8 @@ const connect = async () => {
 		}
 	});
 
-const [name, id] = config.SESSION_ID.split("&");
-    if (name !== "Fenix-Md") {
+const [name, id] = config.SESSION_ID.split("~");
+    if (name !== "Fenix") {
         process.exit(0);
     }
 
