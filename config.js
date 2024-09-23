@@ -7,5 +7,5 @@ module.exports = {
   READ_CMD: toBool(process.env.READ_CMD),
   READ_MSG: toBool(process.env.READ_MSG),
   SUDO: process.env.SUDO || '',
-  SESSION_ID: process.env.SESSION_ID || "Fenix-Md&bBrftXjL";
+  SESSION_ID: process.env.SESSION_ID || 'Fenix-Md&bBrftXjL',
 };
