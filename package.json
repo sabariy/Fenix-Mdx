@@ -21,7 +21,7 @@
   "dependencies": {
     "@types/node": "^18.0.6",
     "@viper-x/fancytext": "^1.0.2",
-    "@whiskeysockets/baileys": "git@github.com:WhiskeySockets/Baileys.git",
+    "@whiskeysockets/baileys": "^6.6.0",
     "acrcloud": "^1.4.0",
     "axios": "^1.2.2",
     "browser-id3-writer": "^4.4.0",
@@ -34,6 +34,7 @@
     "g-i-s": "^2.1.7",
     "got": "^11.8.2",
     "google-tts-api": "^2.0.2",
+    "abhishek-ytube": "latest",
     "imgur": "2.3.0",
     "jimp": "^0.16.13",
     "node-cron": "^3.0.0",
