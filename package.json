@@ -35,7 +35,6 @@
     "got": "^11.8.2",
     "google-tts-api": "^2.0.2",
     "abhishek-ytube": "latest",
-    "imgur": "2.3.0",
     "jimp": "^0.16.13",
     "node-cron": "^3.0.0",
     "node-fetch": "^2.0.0",
