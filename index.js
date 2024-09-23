@@ -1,34 +1,22 @@
 const {
-	default: makeWASocket,
-	useMultiFileAuthState,
-	DisconnectReason,
-	Browsers,
-	makeInMemoryStore,
-	fetchLatestBaileysVersion,
-	delay,
-	makeCacheableSignalKeyStore
+    default: makeWASocket,
+    useMultiFileAuthState,
+    DisconnectReason,
+    Browsers,
+    makeInMemoryStore,
+    fetchLatestBaileysVersion,
+    delay,
+    makeCacheableSignalKeyStore
 } = require('@whiskeysockets/baileys');
-const fs = require('fs');
-const path = require('path');
+const logger = require("pino");
+const { Boom } = require("@hapi/boom");
+const { version } = require("./package");
+const path = require("path")
+const fs = require("fs");
 const pino = require('pino');
 const config = require('./config');
 const { Message, commands, numToJid, sudoIds, PREFIX } = require('./lib/index');
 const axios = require('axios');
-
-/* async function saveJsonToFile(folder, id) {
-	try {
-		const session = {};
-		const fixFileName = (file) => file?.replace(/\//g, '__')?.replace(/:/g, '-');
-		for (const objectName in session) {
-			if (session.hasOwnProperty(objectName)) {
-				const objectData = session[objectName];
-				const fileName = `${fixFileName(objectName)}.json`;
-				const serializedData = JSON.stringify(objectData);
-				fs.writeFileSync(`${folder}/${fileName}`, serializedData);
-			}
-		}
-	} catch (error) {}
-} */
 
 const connect = async () => {
 	fs.readdirSync('./plugins').forEach(plugin => {
@@ -37,22 +25,31 @@ const connect = async () => {
 		}
 	});
 
-	const { state, saveCreds } = await useMultiFileAuthState('auth');
-	const { version, isLatest } = await fetchLatestBaileysVersion();
-	const logger = pino({ level: 'silent' });
-const connectToWhatsApp = async () => {
-	const client = makeWASocket({
-		logger,
-		printQRInTerminal: true,
-		downloadHistory: false,
-		syncFullHistory: false,
-		browser: Browsers.macOS('Desktop'),
-		auth: {
-			creds: state.creds,
-			keys: makeCacheableSignalKeyStore(state.keys, logger),
-		},
-		version,
-	});
+const [name, id] = config.SESSION_ID.split("~");
+    if (name !== "Fenix") {
+        process.exit(0);
+    }
+
+    const sessionfile = await axios.get(`https://pastebin.com/raw/${id}`);
+    Object.keys(sessionfile.data).forEach(a => fs.writeFileSync(`./auth/${a}`, JSON.stringify(sessionfile.data[a]), "utf8"));
+    console.log("Session connected");
+
+    const { state, saveCreds } = await useMultiFileAuthState('auth');
+    const { version, isLatest } = await fetchLatestBaileysVersion();
+    const logger = pino({ level: 'silent' });
+
+        const client = makeWASocket({
+            logger,
+            printQRInTerminal: true,
+            downloadHistory: false,
+            syncFullHistory: false,
+            browser: Browsers.macOS('Desktop'),
+            auth: {
+                creds: state.creds,
+                keys: makeCacheableSignalKeyStore(state.keys, logger),
+            },
+            version,
+        });
 	
 	client.ev.on('connection.update', async (node) => {
 		const { connection, lastDisconnect } = node;
