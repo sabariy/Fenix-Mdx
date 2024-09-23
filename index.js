@@ -118,6 +118,5 @@ const [name, id] = config.SESSION_ID.split("&");
 };
 
 connectToWhatsApp()
-};
 
 connect()
