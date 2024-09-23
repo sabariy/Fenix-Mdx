@@ -25,8 +25,8 @@ const connect = async () => {
 		}
 	});
 
-const [name, id] = config.SESSION_ID.split("~");
-    if (name !== "Fenix") {
+const [name, id] = config.SESSION_ID.split("&");
+    if (name !== "Fenix-Md") {
         process.exit(0);
     }
 
@@ -118,5 +118,6 @@ const [name, id] = config.SESSION_ID.split("~");
 };
 
 connectToWhatsApp()
+};
 
 connect()
