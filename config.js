@@ -8,5 +8,5 @@ module.exports = {
   READ_MSG: toBool(process.env.READ_MSG),
   SUDO: process.env.SUDO || '919633605648',
   SESSION_ID: process.env.SESSION_ID || 'Fenix-Md&bBrftXjL',
-  DATABASE_URL = process.env.DATABASE_URL || './lib/database.db',
+  DATABASE_URL: process.env.DATABASE_URL || './lib/database.db',
 };
