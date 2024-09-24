@@ -116,8 +116,3 @@ const [name, id] = config.SESSION_ID.split("~");
 	});
 	return client;
 };
-
-connectToWhatsApp()
-};
-
-connect()
