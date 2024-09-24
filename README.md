@@ -1,6 +1,6 @@
 </p>
 <p align="center">
-  <a href="https://chat.whatsapp.com/BxR0LrCkAVKGHriVvo7sKy">
+  <a href="https://chat.whatsapp.com/I8KWiuy62CvDw7Y492sYEy">
     <img alt=Support height="250" src="https://i.imgur.com/NlixkpK.jpeg"> 
     </p>
 <h1 align="center">      FENIX-MULTI-DEVICE
@@ -26,7 +26,7 @@
   <a href="https://github.com/sabariy/fenix-md/fork">
     <img src="https://img.shields.io/github/forks/sabariy/fenix-md?label=Fork&style=social">
   <p align="left"> 
-  <a href="https://github.com/sabariy/fenix-md/stargazers">
+  <a href="https://github.com/sabariy/fenix_test/stargazers">
     <img src="https://img.shields.io/github/stars/sabariy/fenix-md?style=social">
       
   
@@ -63,7 +63,7 @@
 
 2. Now Deploy
     <br>
-<a href='https://replit.com/github/xoulfff/fenix-md' target="_blank"><img alt='Heroku' src='https://img.shields.io/badge/-Deploy-black?style=for-the-badge&logo=replit&logoColor=white'/></a>
+<a href='https://replit.com/github/Sabariy/Fenix_test' target="_blank"><img alt='Heroku' src='https://img.shields.io/badge/-Deploy-black?style=for-the-badge&logo=replit&logoColor=white'/></a>
 
 
 
