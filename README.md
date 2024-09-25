@@ -33,7 +33,7 @@
  
 
 </p>
-<p align="center"><img src="https://profile-counter.glitch.me/{sabariy}/count.svg" alt="sabariy :: Visitor's Count" /></p>
+<p align="center"><img src="https://profile-counter.glitch.me/{sabariy}/count.svg" alt="sabariy Visitor's Count" /></p>
 <p align="center">
  <a href="https://chat.whatsapp.com/I8KWiuy62CvDw7Y492sYEy" target="_blank">
     <img alt="whatsapp Group" src="https://img.shields.io/badge/ Whatsapp Support Group -25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
