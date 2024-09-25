@@ -24,7 +24,7 @@
 
    <p align="left">
   <a href="https://github.com/sabariy/fenix-md/fork">
-    <img src="https://img.shields.io/github/forks/sabariy/fenix-md?label=Fork&style=social">
+    <img src="https://img.shields.io/github/forks/sabariy/Fenix-Md?label=Fork&style=social">
   <p align="left"> 
   <a href="https://github.com/sabariy/fenix-Md/stargazers">
     <img src="https://img.shields.io/github/stars/sabariy/Fenix-Md?style=social">
