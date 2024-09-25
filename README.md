@@ -1,7 +1,7 @@
 </p>
 <p align="center">
   <a href="https://chat.whatsapp.com/I8KWiuy62CvDw7Y492sYEy">
-    <img alt=Support height="250" src="https://i.imgur.com/CoAcgTb.jpeg"> 
+    <img alt=Support height="250" src="https://imgur.com/a/uMG0iEV"> 
     </p>
 <h1 align="center">      FENIX-MULTI-DEVICE
 </h1>
