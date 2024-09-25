@@ -7,7 +7,7 @@
 </h1>
 <p align="center"> 
   
-<p align="center"> A Whatsapp Bot Create By Xoul Ser And Abhishek Ser
+<p align="center"> A Whatsapp Bot Create By Sabariy And Abhisher
  
   </a>
 </p>
