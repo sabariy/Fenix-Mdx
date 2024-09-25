@@ -23,10 +23,10 @@
 
 
    <p align="left">
-  <a href="https://github.com/sabariy/fenix-md/fork">
+  <a href="https://github.com/sabariy/Fenix-Md/fork">
     <img src="https://img.shields.io/github/forks/sabariy/Fenix-Md?label=Fork&style=social">
   <p align="left"> 
-  <a href="https://github.com/sabariy/fenix-Md/stargazers">
+  <a href="https://github.com/sabariy/Fenix-Md/stargazers">
     <img src="https://img.shields.io/github/stars/sabariy/Fenix-Md?style=social">
       
   
@@ -44,7 +44,7 @@
 
 
 ### 1. FORK THIS REPO
-<a href='https://github.com/sabatiy/fenix-md/fork' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/Fork This Repo-black?style=for-the-badge&logo=git&logoColor=white'/></a>
+<a href='https://github.com/sabatiy/Fenix-Md/fork' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/Fork This Repo-black?style=for-the-badge&logo=git&logoColor=white'/></a>
 
 
 
@@ -61,7 +61,7 @@
 
 2. Now Deploy
     <br>
-<a href='https://replit.com/github/Sabariy/Fenix_test' target="_blank"><img alt='Heroku' src='https://img.shields.io/badge/-Deploy-black?style=for-the-badge&logo=replit&logoColor=white'/></a>
+<a href='https://replit.com/github/Sabariy/Fenix-Md' target="_blank"><img alt='Heroku' src='https://img.shields.io/badge/-Deploy-black?style=for-the-badge&logo=replit&logoColor=white'/></a>
 
 
 
