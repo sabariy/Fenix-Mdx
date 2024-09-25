@@ -26,15 +26,13 @@
   <a href="https://github.com/sabariy/fenix-md/fork">
     <img src="https://img.shields.io/github/forks/sabariy/fenix-md?label=Fork&style=social">
   <p align="left"> 
-  <a href="https://github.com/sabariy/fenix_test/stargazers">
-    <img src="https://img.shields.io/github/stars/sabariy/fenix-md?style=social">
+  <a href="https://github.com/sabariy/fenix-Md/stargazers">
+    <img src="https://img.shields.io/github/stars/sabariy/Fenix-Md?style=social">
       
   
  
 
 </p>
-<p align="center"><img src="https://profile-counter.glitch.me/{sabariy}/count.svg" alt="sabariy Visitor's Count" /></p>
-<p align="center">
  <a href="https://chat.whatsapp.com/I8KWiuy62CvDw7Y492sYEy" target="_blank">
     <img alt="whatsapp Group" src="https://img.shields.io/badge/ Whatsapp Support Group -25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
   </a>
